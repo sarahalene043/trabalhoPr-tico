@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Adventure - Guia de Viagens</title>
+
+     <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+     <!-- Página Inicial -->
+     <div class="container home-page">
+          <header>
+               <div class="navbar">
+                    <a href="./index.html" class="logo">ADVEN<span>TURES</span></a>
+                    <div class="mobile-menu">☰</div>
+               </div>
+          </header>
+
+          <section class="featured-items">
+               <h2 class="section-title">Itens em Destaque</h2>
+
+
+               <div class="carousel">
+                    <div class="carousel-track">
+                         <div class="slide">
+                              <img src="./images/atenas02.avif" data-id="Acrópole de Atenas"/>
+                              <h3>Acrópole de Atenas</h3>
+                         </div>
+
+                         <div class="slide">
+                              <img src="./images/camboja15.avif" data-id="Angkor Wat"/>
+                              <h3>Camboja - Angkor Wat</h3>
+                         </div>
+
+                         <div class="slide">
+                              <img src="./images/Muralha da China.avif" data-id="Muralha da China"/>
+                              <h3>Muralha da China</h3>
+                         </div>
+                    </div>
+                    <button class="btn prev">&#10094;</button>
+                    <button class="btn next">&#10095;</button>
+               </div>
+
+
+
+          </section>
+
+          <section class="all-items">
+               <h2 class="section-title">Todos os itens</h2>
+               <div class="item-grid" id="itemsGrid">
+                    <!-- 1ª linha -->
+
+                    <div class="item-card" data-id="Paris">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Paris.png">
+                              </div>
+                              <div class="item-title">Paris - França</div>
+                              <div class="item-description">Paris, a capital da França, é uma importante cidade europeia e um centro mundial de arte, moda, gastronomia e cultura. Sua paisagem urbana do século XIX é cortada por avenidas largas e pelo rio Sena. 
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card" data-id="Itália">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Roma.png" alt="">
+                              </div>
+                              <div class="item-title">Itália - Roma</div>
+                              <div class="item-description">Roma, a capital da Itália, é repleta de curiosidades fascinantes. Uma delas é que é conhecida como a "Cidade Eterna" e tem uma história que remonta a mais de 2.500 anos. Além disso, Roma abriga o Vaticano, o menor país do mundo e sede da Igreja Católica. Outra curiosidade é que a cidade tem mais de 2.000 fontes e cerca de 900 igrejas. 
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card active" data-id="Cristo">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Cristo Redentor.avif" alt="">
+                              </div>
+                              <div class="item-title">Brasil - Cristo Redentor</div>
+                              <div class="item-description">Por estar no alto do Corcovado, o Monumento foi projetado para resistir a ventos de até 250km/h — uma média quatro vezes maior do que a registrada na época de sua construção. Ele suportaria até mesmo os ventos de um furacão de categoria 5, como o furacão Katrina, que atingiu os EUA em 2005.
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card active" data-id="Angkor Wat">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Angkor Wat.avif">
+                              </div>
+                              <div class="item-title">Camboja - Angkor Wat</div>
+                              <div class="item-description">Angkor Wat é um templo situado 5,5 km a norte da cidade de Siem Reap, na província homônima do Camboja. É o maior e mais bem preservado templo dos que integram o assentamento de Angkor. É também o único que restou com importante significado religioso — inicialmente hindu, e depois budista — desde a sua fundação
+                              </div>
+                         </div>
+                    </div>
+
+                    <!-- 2ª linha -->
+                    <div class="item-card active" data-id="India" >
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Taj Mahal.avif">
+                              </div>
+                              <div class="item-title">India - Taj Mahal</div>
+                              <div class="item-description">O Taj Mahal é um mausoléu situado em Agra, na Índia, sendo o mais conhecido dos monumentos do país. Encontra-se classificado pela UNESCO como Patrimônio da Humanidade. Foi anunciado em 2007 como uma das sete maravilhas do mundo moderno.
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card" data-id="Muralha da China">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Muralha da China.avif" alt="">
+                              </div>
+                              <div class="item-title">Muralha da China</div>
+                              <div class="item-description">A Grande Muralha da China possui torres construídas no topo de colinas. Em uma época na qual não existia telefone ou internet, essas plataformas serviam como ponto de envio de comunicação militar. A comunicação era feita por “fogo ou lamparina durante a noite ou sinais de fumaça durante o dia
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card" data-id="Milão">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Catedral de Milão.avif" alt="">
+                              </div>
+                              <div class="item-title">Catedral de Milão</div>
+                              <div class="item-description">A construção do Duomo de Milão foi iniciada em 1396 e concluída em 1965, no lugar onde se anteriormente encontrava-se a Basílica de San Ambrogio desde o século V d.C até 836 quando foi acrescentada a Basílica de Santa Tecla, ambas destruídas em um incêndio em 1075.
+                              </div>
+                         </div>
+                    </div>
+
+                    <div class="item-card" data-id="Acrópole de Atenas">
+                         <div class="item-content">
+                              <div class="item-image">
+                                   <img src="./images/Acrópole de Atenas.avif">
+                              </div>
+                              <div class="item-title">Grécia - Acrópole de Atenas</div>
+                              <div class="item-description">A Acrópole de Atenas é a mais conhecida e importante acrópole grega. Embora existam muitas outras acrópoles na Grécia, o significado da Acrópole de Atenas é tal que é comumente conhecida como A Acrópole, sem qualificação
+                              </div>
+                         </div>
+                    </div>
+
+               </div>
+          </section>
+
+          <section class="student-info">
+               <h2 class="section-title">Informações do(a) Aluno(a)</h2>
+               <div class="student-content">
+                    <div class="about">
+                         <h3>Sobre</h3>
+                         <p>Meu nome é Sarah, tenho 21 anos e sou estudante de Sistemas de Informações na Puc Minas.</p>
+
+                    </div>
+                    <div class="author">
+                         <h3>Autoria</h3>
+                         <div class="author-details">
+                              <div class="author-pic">
+                                   <img src="./images/Mao Mao.jpeg" alt="">
+                              </div>
+                              <div>
+                                   <div class="author-title">Aluno: Sarah Alene de Souza </div>
+                                   <div class="author-course">Curso: Sistemas de Informações</div>
+                                   <div class="author-term">Turma: Noite</div>
+                              </div>
+                         </div>
+
+                    </div>
+               </div>
+          </section>
+     </div>
+
+
+     <!-- Página de Detalhes -->
+     <div class="container detail-page" id="detailPage">
+          <header>
+               <div class="navbar">
+                    <a href="./index.html" class="logo">ADVEN<span>TURES</span></a>
+
+                    <div class="mobile-menu">☰</div>
+               </div>
+          </header>
+
+          <a href="./index.html" class="back-link" id="backToHome">&larr; Voltar</a>
+
+          <div class="detail-container">
+               <h2 class="section-title">Informações Geral</h2>
+
+               <div class="custom-layout">
+                    <div class="warning">ISSO É UM TESTE</div>
+                    <p></p>
+               </div>
+
+               <section class="item-photos">
+                    <h2 class="section-title">Fotos do Item</h2>
+                    <div class="photo-gallery">
+                         <div class="photo-item">
+                              <img src="" alt="">
+                         </div>
+                         <div class="photo-item"></div>
+                         <div class="photo-item"></div>
+                         <div class="photo-item"></div>
+                         <div class="photo-item"></div>
+                    </div>
+               </section>
+          </div>
+     </div>
+
+     <script src="./script.js"></script>
+</body>
+
+</html>
